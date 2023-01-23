@@ -93,6 +93,28 @@
 	"quark.category.oddities": "Quark Oddities",
 	"quark.category.experimental": "Expérimental",
 
+	"_quark.config.tl_note1": "Additional translation keys for config elements can be added here",
+	"_quark.config.tl_note2": "The format is quark.config.[(category).]+.(name).<name|desc>",
+	"_quark.config.tl_note3": "where (name) is lower case, with spaces replaced with underscores, and all non alphanumerical characters stripped",
+	"_quark.config.tl_note4": "Any non localized entries will revert to the default english values in the config",
+	"_quark.config.tl_note5": "This localization is only for the ingame viewer, and will not affect the config file. Additional .descs can be added at will",
+	"_quark.config.tl_note6": "Descriptions can be removed by translating them to an empty key, if desired. Use \n to split lines",
+	"_quark.config.tl_note7": "See below for examples (with the key prefixed by _) so it doesnt load ingame:",
+
+	"_quark.config.automation.feeding_trough.name": "Test 100",
+	"_quark.config.automation.feeding_trough.desc": "Yeah I'm testing\nWith multiple lines too!",
+	"_quark.config.automation.feeding_trough.max_animals.name": "Testeroni",
+	"_quark.config.automation.feeding_trough.max_animals.desc": "Testerino with one line",
+	"_quark.config.automation.feeding_trough.love_chance.name": "This do be a test doe",
+	"_quark.config.automation.feeding_trough.love_chance.desc": "",
+
+	"quark.config.automation.feeding_trough.name": "Test 100",
+	"quark.config.automation.feeding_trough.desc": "Yeah I'm testing\nWith multiple lines too!",
+	"quark.config.automation.feeding_trough.max_animals.name": "Testeroni",
+	"quark.config.automation.feeding_trough.max_animals.desc": "Testerino with one line",
+	"quark.config.automation.feeding_trough.love_chance.name": "This do be a test doe",
+	"quark.config.automation.feeding_trough.love_chance.desc": "",
+
 	"quark.camera.filter": "Filtre: ",
 	"quark.camera.filter.none": "Aucun",
 	"quark.camera.filter.grayscale": "Niveaux de gris",
@@ -113,10 +135,9 @@
 	"quark.camera.filter.enderman": "Enderman-vision",
 	"quark.camera.filter.bits": "Pixelisé",
 
-	"_comment.quark.camera.filter.watercolor": "its wrong in the english translation as well",
-	"quark.camera.filter.blobs": "Aquarelle",
+	"quark.camera.filter.blobs": "Négatif",
 	"quark.camera.filter.pencil": "Crayon",
-	"quark.camera.filter.watercolor": "Négatif",
+	"quark.camera.filter.watercolor": "Aquarelle",
 
 	"quark.camera.filter.sobel": "Sobel",
 	"quark.camera.filter.deuteranopia": "Deutéranopie",
@@ -420,12 +441,6 @@
 	"item.minecraft.splash_potion.effect.quark.resilience": "Potion jetable de stabilité",
 	"item.minecraft.lingering_potion.effect.quark.resilience": "Potion persistante de stabilité",
 	"item.minecraft.tipped_arrow.effect.quark.resilience": "Flèche de stabilité",
-
-	"_comment.quark.resistance": "looks like it's currently not implemented",
-	"item.minecraft.potion.effect.quark.resistance": "Potion de résistance",
-	"item.minecraft.splash_potion.effect.quark.resistance": "Potion jetable de résistance",
-	"item.minecraft.lingering_potion.effect.quark.resistance": "Potion de résistance persistante",
-	"item.minecraft.tipped_arrow.effect.quark.resistance": "Flèche de résistance",
 
 	"item.quark.biome_map": "Carte de %s",
 	"item.quark.biome_map.unknown": "biome inconnu",
@@ -912,7 +927,6 @@
 	"block.quark.blue_nether_bricks_vertical_slab": "Dalle verticale en briques bleues du Nether",
 	"block.quark.blue_nether_bricks_wall": "Muret en briques bleues du Nether",
 
-	"block.quark.shallow_dirt": "Terre sale",
 	"block.quark.bamboo_mat": "Bloc de tatami",
 	"block.quark.bamboo_mat_carpet": "Tatami",
 	"block.quark.cut_vine": "Lianes coupées",
