@@ -101,19 +101,23 @@
 	"_quark.config.tl_note6": "Descriptions can be removed by translating them to an empty key, if desired. Use \n to split lines",
 	"_quark.config.tl_note7": "See below for examples (with the key prefixed by _) so it doesnt load ingame:",
 
-	"_quark.config.automation.feeding_trough.name": "Test 100",
-	"_quark.config.automation.feeding_trough.desc": "Yeah I'm testing\nWith multiple lines too!",
-	"_quark.config.automation.feeding_trough.max_animals.name": "Testeroni",
-	"_quark.config.automation.feeding_trough.max_animals.desc": "Testerino with one line",
-	"_quark.config.automation.feeding_trough.love_chance.name": "This do be a test doe",
-	"_quark.config.automation.feeding_trough.love_chance.desc": "",
+	"quark.config.automation.feeding_trough.name": "Mangeoire",
+	"quark.config.automation.feeding_trough.desc": "",
 
-	"quark.config.automation.feeding_trough.name": "Test 100",
-	"quark.config.automation.feeding_trough.desc": "Yeah I'm testing\nWith multiple lines too!",
-	"quark.config.automation.feeding_trough.max_animals.name": "Testeroni",
-	"quark.config.automation.feeding_trough.max_animals.desc": "Testerino with one line",
-	"quark.config.automation.feeding_trough.love_chance.name": "This do be a test doe",
-	"quark.config.automation.feeding_trough.love_chance.desc": "",
+	"quark.config.automation.feeding_trough.cooldown.name": "Délai de récupération",
+	"quark.config.automation.feeding_trough.cooldown.desc": "Le temps minimum, en ticks, avant qu'un animal soit autorisé à re-manger",
+
+	"quark.config.automation.feeding_trough.enable_trough_caching.name": "Mémoire",
+	"quark.config.automation.feeding_trough.enable_trough_caching.desc": "Autoriser les animaux à mémoriser l'emplacement de la dernière mangeoire qu'ils ont utilisés. Désactiver cette option peut causer du lag.",
+
+	"quark.config.automation.feeding_trough.love_chance.name": "Taux de reproduction",
+	"quark.config.automation.feeding_trough.love_chance.desc": "La probabilité (entre 0 et 1) qu'un animal a de se reproduire après avoir mangé.",
+
+	"quark.config.automation.feeding_trough.max_animals.name": "Maximum d'animaux",
+	"quark.config.automation.feeding_trough.max_animals.desc": "La quantité maximale d'animaux autorisés à se reproduire dans le rayon d'action de la mangeoire",
+
+	"quark.config.automation.feeding_trough.range.name": "Rayon d'action",
+	"quark.config.automation.feeding_trough.range.desc": "",
 
 	"quark.camera.filter": "Filtre: ",
 	"quark.camera.filter.none": "Aucun",
